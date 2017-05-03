@@ -1,5 +1,5 @@
 {application, cargotube,
- [{description, "An OTP application"},
+ [{description, "CargoTube"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { cargotube_app, []}},
