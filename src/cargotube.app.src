@@ -5,7 +5,9 @@
   {mod, { cargotube_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    ct_gate,
+    ct_router
    ]},
   {env,[]},
   {modules, []},

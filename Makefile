@@ -6,7 +6,7 @@ APP=sb_core
 all: compile
 
 clean:
-	$(REBAR) cover -r 
+	$(REBAR) cover -r
 	$(REBAR) clean
 
 eunit:
@@ -18,7 +18,14 @@ ct:
 	$(REBAR) cover -v
 
 tests: elvis eunit ct
-	$(REBAR) dialyzer 
+	$(REBAR) dialyzer
+
+rel:
+	$(REBAR) release
+
+run: rel
+	./_build/default/rel/cargotube/bin/cargotube
+
 
 elvis:
 	$(REBAR) lint
