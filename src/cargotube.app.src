@@ -5,6 +5,7 @@
   {mod, { cargotube_app, []}},
   {applications,
    [kernel,
+    eper,
     stdlib,
     ct_gate,
     ct_router
