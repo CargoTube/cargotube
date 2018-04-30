@@ -1,9 +1,9 @@
 {"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.0.0">>},1},
- {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.0.1">>},2},
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.3.0">>},1},
+ {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.2.1">>},2},
  {<<"ct_gate">>,
   {git,"https://github.com/CargoTube/ct_gate.git",
-       {ref,"7db5cb1ad0cf51108383f72c3f7ffb2e065ca864"}},
+       {ref,"6b9e4d0faf1d98b581b081a6158246e0f5b80a38"}},
   0},
  {<<"ct_msg">>,
   {git,"https://github.com/CargoTube/ct_msg.git",
@@ -11,7 +11,7 @@
   0},
  {<<"ct_router">>,
   {git,"https://github.com/CargoTube/ct_router.git",
-       {ref,"99043ec13849e336a50b1cbe820d2a6e5484ed1b"}},
+       {ref,"570ea04de76bd8badfb04ba6ceb6b76e9ba75e1d"}},
   0},
  {<<"ct_router_if">>,
   {git,"https://github.com/CargoTube/ct_router_if.git",
@@ -27,8 +27,8 @@
  {<<"ranch">>,{pkg,<<"ranch">>,<<"1.4.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"cowboy">>, <<"A3B680BCC1156C6FBCB398CC56ADC35177037012D7DC28D8F7E7926D6C243561">>},
- {<<"cowlib">>, <<"4DFFFB1DB296EAB9F2E8B95EE3017007F674BC920CE30AEB5A53BBDA82FC38C0">>},
+ {<<"cowboy">>, <<"268429481D6F41AD5564ADE4A2439C284B569083FCA0D19078AD4F56B4624724">>},
+ {<<"cowlib">>, <<"1AFA5B233CEE8F642C153EC6F1DC48DB0DD9A43E2114BC8B43E9D59636F6AE1F">>},
  {<<"eper">>, <<"F5FB2DAA0DF8878748E1C598428EDA942A173E5121FF35C1D632129B84593A3A">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"jobs">>, <<"132E4BED856CE774B008B31C1AA809C17FA6C2C20BE03E010ACE273CA057A5DE">>},
