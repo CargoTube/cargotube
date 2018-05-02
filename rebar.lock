@@ -3,7 +3,7 @@
  {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.2.1">>},2},
  {<<"ct_gate">>,
   {git,"https://github.com/CargoTube/ct_gate.git",
-       {ref,"6b9e4d0faf1d98b581b081a6158246e0f5b80a38"}},
+       {ref,"84f7e5ab4ac9c390785c4d1076de75a428cd8d75"}},
   0},
  {<<"ct_msg">>,
   {git,"https://github.com/CargoTube/ct_msg.git",
