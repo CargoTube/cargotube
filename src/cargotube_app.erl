@@ -31,7 +31,7 @@ stop(_State) ->
 add_realms() ->
     RealmConfig = application:get_env(cargotube, realms, []),
     AddRealm = fun({Name, Auth, Mapping} , _) ->
-                       ctr_realm:new(Name, Auth, Mapping)
+                       cta_realm:new(Name, Auth, Mapping)
                end,
     lists:foldl(AddRealm, ok, RealmConfig).
 
