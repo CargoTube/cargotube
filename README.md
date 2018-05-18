@@ -7,5 +7,3 @@ as remote procedure calling.
 
 CargoTube implements the wamp.ws protocol, specified
 at https://wamp-proto.org/.
-
-CargotTube is the predecessor or erwa.
