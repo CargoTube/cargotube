@@ -61,6 +61,8 @@ CargoTube implements
 * partially the [Advanced Profile](https://wamp-proto.org/static/rfc/draft-oberstet-hybi-crossbar-wamp.html#rfc.section.14)
   * RawSocket Transport
   * Batched Websocket Transport
+  * Subscriber Black- and Whitelisting
+  * Publisher Exclusion
 
 Please fill in an issue for needed features.
 
