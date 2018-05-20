@@ -63,6 +63,7 @@ CargoTube implements
   * Batched Websocket Transport
   * Subscriber Black- and Whitelisting
   * Publisher Exclusion
+  * Caller Identification
 
 Please fill in an issue for needed features.
 

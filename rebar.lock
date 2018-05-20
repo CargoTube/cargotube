@@ -15,7 +15,7 @@
   0},
  {<<"ct_router">>,
   {git,"https://github.com/CargoTube/ct_router.git",
-       {ref,"f471be0f5fe62fabdeaec3e7471ebf75b1ad7072"}},
+       {ref,"11636f3688dc67877a883fba791182219e745b69"}},
   0},
  {<<"ct_router_if">>,
   {git,"https://github.com/CargoTube/ct_router_if.git",
