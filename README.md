@@ -16,7 +16,7 @@ CargoTube can be used to connect various clients
 for publication and subscribing to topics as well
 as remote procedure calling.
 
-CargoTube implements the basic wamp protocol, specified
+CargoTube implements the wamp protocol, specified
 at https://wamp-proto.org/.
 
 Pull Requests, Bug Reports, Comments and any other kind of feedback is welcome.
@@ -43,7 +43,6 @@ Please fill in an issue for needed features.
 License
 =======
 CargoTube is released under the CDDL-1.0.
-
 See license file for more information.
 
 [Back to TOC](#table-of-contents)
