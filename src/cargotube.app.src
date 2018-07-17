@@ -1,6 +1,6 @@
 {application, cargotube,
  [{description, "CargoTube"},
-  {vsn, "0.1.0"},
+  {vsn, "semver"},
   {registered, []},
   {mod, { cargotube_app, []}},
   {applications,
