@@ -7,17 +7,21 @@
 ;Include Windows Version checking
 
   !include "WinVer.nsh"
+  
+;--------------------------------
+;Include CargoTube Version
+
+  !include "CargoTubeVersion.nsh"  
 
 ;--------------------------------
 ;General
   !define NAME "CargoTube"
-  !define VERSION "0.6.1"
   !define COMMENT "CargoTube the software router"
 
 
 
   ;Name and file
-  Name "CargoTube ${Version}"
+  Name "CargoTube"
   OutFile "${Name} Setup - ${VERSION}.exe"
 
   ;Default installation folder
@@ -34,7 +38,7 @@
 ;--------------------------------
 ;Pages
 
-  !insertmacro MUI_PAGE_LICENSE "LICENSE.txt"
+  !insertmacro MUI_PAGE_LICENSE "..\..\LICENSE.txt"
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
 

@@ -10,3 +10,5 @@ ebin
 rel/example_project
 .concrete/DEV_MODE
 _build/
+log/
+CargoTubeVersion.nsh
