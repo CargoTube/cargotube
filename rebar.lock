@@ -1,13 +1,13 @@
 {"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.3.0">>},1},
- {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.2.1">>},2},
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.4.0">>},1},
+ {<<"cowlib">>,{pkg,<<"cowlib">>,<<"2.3.0">>},2},
  {<<"ct_auth">>,
   {git,"https://github.com/CargoTube/ct_auth.git",
-       {ref,"a968e642d69265f16783be99788b0ab666379d03"}},
+       {ref,"a5ef340c2f59f0e79563002f3a7a137433c531cd"}},
   0},
  {<<"ct_gate">>,
   {git,"https://github.com/CargoTube/ct_gate.git",
-       {ref,"df99a84eda531a1d11701f01d1ecbc42451cf1a9"}},
+       {ref,"ef52bc68362d09272eb018f12b4c4b255e5d0e61"}},
   0},
  {<<"ct_msg">>,
   {git,"https://github.com/CargoTube/ct_msg.git",
@@ -15,7 +15,7 @@
   0},
  {<<"ct_router">>,
   {git,"https://github.com/CargoTube/ct_router.git",
-       {ref,"d7f536512ac1ae880a85e8c39348bf4b7c3cd186"}},
+       {ref,"d8b3be344dcfb007f903d8055894bbed2636f522"}},
   0},
  {<<"ct_router_if">>,
   {git,"https://github.com/CargoTube/ct_router_if.git",
@@ -33,20 +33,20 @@
   1},
  {<<"jobs">>,{pkg,<<"jobs">>,<<"0.7.1">>},1},
  {<<"jsone">>,{pkg,<<"jsone">>,<<"1.4.7">>},1},
- {<<"lager">>,{pkg,<<"lager">>,<<"3.5.1">>},0},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.6.4">>},0},
  {<<"msgpack">>,{pkg,<<"msgpack">>,<<"0.7.0">>},1},
  {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.0.0">>},2},
- {<<"ranch">>,{pkg,<<"ranch">>,<<"1.4.0">>},1}]}.
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.5.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"cowboy">>, <<"268429481D6F41AD5564ADE4A2439C284B569083FCA0D19078AD4F56B4624724">>},
- {<<"cowlib">>, <<"1AFA5B233CEE8F642C153EC6F1DC48DB0DD9A43E2114BC8B43E9D59636F6AE1F">>},
+ {<<"cowboy">>, <<"F1B72FABE9C8A5FC64AC5AC85FB65474D64733D1DF52A26FAD5D4BA3D9F70A9F">>},
+ {<<"cowlib">>, <<"BBD58EF537904E4F7C1DD62E6AA8BC831C8183CE4EFA9BD1150164FE15BE4CAA">>},
  {<<"eper">>, <<"A50698B6803B8732AD6575285320999FE73E160A1A9FF7EFCAB6B6F818BD2C1F">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"jobs">>, <<"132E4BED856CE774B008B31C1AA809C17FA6C2C20BE03E010ACE273CA057A5DE">>},
  {<<"jsone">>, <<"A970C23D9700AE7842B526C57677E6E3F10894B429524696EAD547E9302391C0">>},
- {<<"lager">>, <<"63897A61AF646C59BB928FEE9756CE8BDD02D5A1A2F3551D4A5E38386C2CC071">>},
+ {<<"lager">>, <<"CED6E98070FB4E58EE93174D006D46479C79844DF7FC17FA4FEFC1049A320D88">>},
  {<<"msgpack">>, <<"128AE0A2227C7E7A2847C0F0F73551C268464F8C1EE96BFFB920BC0A5712B295">>},
  {<<"parse_trans">>, <<"9E96B1C9C3A0DF54E7B76F8F685D38BFA1EB21B31E042B1D1A5A70258E4DB1E3">>},
- {<<"ranch">>, <<"10272F95DA79340FA7E8774BA7930B901713D272905D0012B06CA6D994F8826B">>}]}
+ {<<"ranch">>, <<"F04166F456790FEE2AC1AA05A02745CC75783C2BFB26D39FAF6AEFC9A3D3A58A">>}]}
 ].
