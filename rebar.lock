@@ -7,7 +7,7 @@
   0},
  {<<"ct_gate">>,
   {git,"https://github.com/CargoTube/ct_gate.git",
-       {ref,"2b8d4bd808090f7e61ea35ed5c0d18113bd1e8c6"}},
+       {ref,"df99a84eda531a1d11701f01d1ecbc42451cf1a9"}},
   0},
  {<<"ct_msg">>,
   {git,"https://github.com/CargoTube/ct_msg.git",
