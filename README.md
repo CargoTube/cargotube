@@ -65,9 +65,9 @@ CargoTube implements
   * Publisher Exclusion
   * Caller Identification
   * Session Meta API
+  * Subscription Meta API
   * partially implemented
     * Registration Meta API
-    * Subscription Meta API
 
 Please fill in an issue for needed features.
 
