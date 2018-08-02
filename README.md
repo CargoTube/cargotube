@@ -66,8 +66,7 @@ CargoTube implements
   * Caller Identification
   * Session Meta API
   * Subscription Meta API
-  * partially implemented
-    * Registration Meta API
+  * Registration Meta API
 
 Please fill in an issue for needed features.
 
