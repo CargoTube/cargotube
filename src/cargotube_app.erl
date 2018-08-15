@@ -15,6 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
+    init_data(),
     add_realms(),
     update_version_settings(),
     cargotube_sup:start_link().
@@ -27,6 +28,10 @@ stop(_State) ->
 %% Internal functions
 %%====================================================================
 
+
+init_data() ->
+    ct_auth:init(),
+    ctr_data:init().
 
 add_realms() ->
     RealmConfig = application:get_env(cargotube, realms, []),
