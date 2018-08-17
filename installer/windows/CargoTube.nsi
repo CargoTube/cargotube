@@ -22,7 +22,7 @@
 
   ;Name and file
   Name "CargoTube"
-  OutFile "${Name} Setup - ${VERSION}.exe"
+  OutFile "${Name}_Setup-${VERSION}.exe"
 
   ;Default installation folder
   InstallDir "$PROGRAMFILES\${Name}"
